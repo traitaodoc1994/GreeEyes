@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_map">
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.nttapp.greeeyes.ui.map.MapFragment"
+        android:label="Bản đồ"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/navigation_tracking"
+        android:name="com.nttapp.greeeyes.ui.tracking.TrackingFragment"
+        android:label="Theo dõi"
+        tools:layout="@layout/fragment_tracking" />
+
+    <fragment
+        android:id="@+id/navigation_pet"
+        android:name="com.nttapp.greeeyes.ui.pet.PetFragment"
+        android:label="Thú cưng"
+        tools:layout="@layout/fragment_pet" />
+
+    <fragment
+        android:id="@+id/navigation_rank"
+        android:name="com.nttapp.greeeyes.ui.rank.RankFragment"
+        android:label="Xếp hạng"
+        tools:layout="@layout/fragment_rank" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.nttapp.greeeyes.ui.notifications.NotificationsFragment"
+        android:label="Thông báo"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_personal"
+        android:name="com.nttapp.greeeyes.ui.personal.PersonalFragment"
+        android:label="Cá nhân"
+        tools:layout="@layout/fragment_personal" />
+
+</navigation> 

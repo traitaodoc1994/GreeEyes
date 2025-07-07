@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_map"
+        android:enabled="true"
+        android:icon="@drawable/map"
+        android:title="Bản đồ" />
+    
+    <item
+        android:id="@+id/navigation_tracking"
+        android:enabled="true"
+        android:icon="@drawable/tracking"
+        android:title="Theo dõi" />
+    
+    <item
+        android:id="@+id/navigation_pet"
+        android:enabled="true"
+        android:icon="@drawable/pet"
+        android:title="Thú cưng" />
+    
+    <item
+        android:id="@+id/navigation_rank"
+        android:enabled="true"
+        android:icon="@drawable/rank"
+        android:title="Xếp hạng" />
+    
+    <item
+        android:id="@+id/navigation_notifications"
+        android:enabled="true"
+        android:icon="@drawable/notifications"
+        android:title="Thông báo" />
+    
+    <item
+        android:id="@+id/navigation_personal"
+        android:enabled="true"
+        android:icon="@drawable/personal"
+        android:title="Cá nhân" />
+</menu> 

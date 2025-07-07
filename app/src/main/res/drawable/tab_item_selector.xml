@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Selected state: background xanh lá cây -->
+    <item android:state_selected="true"
+        android:drawable="@drawable/tab_item_selected_background" />
+    
+    <!-- Unselected state: transparent với ripple effect -->
+    <item android:drawable="@android:color/transparent" />
+</selector> 
